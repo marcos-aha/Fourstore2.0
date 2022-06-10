@@ -167,6 +167,7 @@ public class SellMenu {
 				option1 = TransactionController.customerData(name, cpf, payment, card);
 				break;
 			} else if (option.equals("0")) {
+				cart();
 				option1 = TransactionController.customerData(name, payment, card);
 				break;
 			} else {
